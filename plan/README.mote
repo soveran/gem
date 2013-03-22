@@ -1,0 +1,17 @@
+{{ name }}
+====
+
+{{ summary }}
+
+Description
+-----------
+
+{{ description }}
+
+## Installation
+
+As usual, you can install it using rubygems.
+
+```
+$ gem install {{ name }}
+```

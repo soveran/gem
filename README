@@ -1,0 +1,15 @@
+SYNOPSIS
+
+    Gem template for gn, the file generator.
+
+INSTALLATION
+
+    $ gn -i https://github.com/soveran/gem
+
+USAGE
+
+    $ gn gem
+
+SEE ALSO
+
+    http://lucasefe.github.com/gn/
