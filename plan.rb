@@ -33,37 +33,37 @@ module Plan
     end
 
     def destination
-      "#{name}.gemspec"
+      "#{name}/#{name}.gemspec"
     end
   end
 
   class License < Gem
     def destination
-      "LICENSE"
+      "#{name}/LICENSE"
     end
   end
 
   class Readme < Gem
     def destination
-      "README"
+      "#{name}/README"
     end
   end
 
   class Lib < Gem
     def destination
-      "lib/#{name}.rb"
+      "#{name}/lib/#{name}.rb"
     end
   end
 
   class Bin < Gem
     def destination
-      "bin/#{name}"
+      "#{name}/bin/#{name}"
     end
   end
 
   class Test < Gem
     def destination
-      "test/#{name}_test.rb"
+      "#{name}/test/#{name}_test.rb"
     end
   end
 end
